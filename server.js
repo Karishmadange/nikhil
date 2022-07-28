@@ -30,5 +30,18 @@ app.get("/aboutus",(req, res)=>{
             + "</ol>"
     );
 });
+app.get("/login",(req, res)=>{
+    res.send(
+            "<h1>Vijay Sales </h1>"
+            + "<h3>Login</h3>"
+            +"<hr/>"
+            +"<form>"
+            + "<input/>"
+            + "<br/>"
+            +"<input/> "
+            +"<button>login</button>"
+            + "</form>"
+    );
+});
 var server=app.listen(9000);
 console.log("Nikhil Sales Online shopping running on port 9000");
