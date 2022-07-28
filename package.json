@@ -1,0 +1,23 @@
+{
+  "name": "nikhil",
+  "version": "1.0.0",
+  "description": "demo for practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karishmadange/nikhil.git"
+  },
+  "author": "Karishma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karishmadange/nikhil/issues"
+  },
+  "homepage": "https://github.com/Karishmadange/nikhil#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
